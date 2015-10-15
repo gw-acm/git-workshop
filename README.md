@@ -9,7 +9,7 @@ This repository goes along with the [How2Git](http://phil-lopreiato.github.io/gi
 ## What Do I Do?
 For more details, take a look at [this guide](https://guides.github.com/activities/forking/)
  1. Fork this repository to your own account by clicking the button near the top-right of this page. 
- 2.  Clone the repository onto your local machine by running `git clone https://github.com/phil-lopreiato/git-workshop.git`
+ 2.  Clone the repository onto your local machine by running `git clone https://github.com/phil-lopreiato/git-workshop.git` and then enter the project directory (`cd git-workshop`)
  3. Create a new local branch in your terminal for your feature (`git checkout -b my-feature`)
  4. Make your changes (implement a funcition in [SimpleCalculator.java](https://github.com/phil-lopreiato/git-workshop/blob/master/SimpleCalculator.java))
  5. Commit your changes (`git add SimpleCalculator.java` and `git commit`)
