@@ -1,77 +1,73 @@
-/*
- * SimpleCalculator.java
- *
- * Neel Shah (github.com/nks5295)
- * Phil Lopreiato (github.com/phil-lopreiato)
- *
- * Four function calculator that performs addition, subtraction,
- * multiplication, and division.
- *
- * This class is missing code and it is to be filled out during
- * the GWU ACM Git workshop
- */
-
-
 import java.util.Scanner;
 
+/**
+ * SimpleCalculator.java
+ * <p>
+ * Four function calculator that performs addition, subtraction,
+ * multiplication, and division.
+ * <p>
+ * This class is missing code and it is to be filled out during
+ * the GWU ACM Git workshop
+ *
+ * @author Neel Shah (github.com/nks5295)
+ * @author Phil Lopreiato (github.com/phil-lopreiato)
+ * @version 1.0
+ *
+ */
 public class SimpleCalculator {
 
 	private static final int ERROR = -1234567890;
 
-	public SimpleCalculator(){
+	public SimpleCalculator() {
 	}
 
-	/*
-	 * Method add
-	 * Args:
-	 *		int num1 - one of the two operands
-	 *		int num2 - another operand
-	 * Return:
-	 *		An integer that is the sum of the arguments
+	/**
+	 * Perform addition
+	 * @param num1 first addition operand
+	 * @param num2 second addition operand
+	 * @return An integer that is the sum of the arguments
 	 */
 	public int add(int num1, int num2) {
 		// TODO: Complete this method
 	}
 
-	/*
-	 * Method subtract
-	 * Args:
-	 *		int num1 - one of the two operands
-	 *		int num2 - another operand
-	 * Return:
-	 *		An integer that is the difference of the arguments
+	/**
+	 * Perform subtraction
+	 * @param num1 first subtraction operand
+	 * @param num2 second subtraction operand
+	 * @return An integer that is the difference of the arguments
 	 */
 	public int subtract(int num1, int num2) {
 		// TODO: Complete this method
 	}
 
-	/*
-	 * Method multiply
-	 * Args:
-	 *		int num1 - one of the two operands
-	 *		int num2 - another operand
-	 * Return:
-	 *		An integer that is the product of the arguments
+	/**
+     * Perform multiplication
+	 * @param num1 first multiplication operand
+	 * @param num2 second multiplication operand
+	 * @return an integer that is the product of the arguments
 	 */
 	public int multiply(int num1, int num2) {
 		// TODO: Complete this method
 	}
 
-	/*
-	 * Method divide
-	 * Args:
-	 *		int num1 - one of the two operands
-	 *		int num2 - another operand
-	 * Return:
-	 *		An integer that is the quotient of the arguments
-	 *		note: this method does not account for what is lost
-	 *		      due to integer divison
+	/**
+     * Perform division
+     * <p>
+     * This method does not account for the truncation that
+     * occues during integer divsion
+     *
+	 * @param num1 first division operand
+	 * @param num2 second division operand
+	 * @return An integer that is the quotient of the arguments
 	 */
 	public int divide(int num1, int num2) {
 		// TODO: Complete this method
 	}
 
-	/*
+	/**
+     * Main entry point for the program
+     *<p>
 	 * Continuously loops and asks for two numbers and an operation.
 	 * If the operation is accepted, it will run that operation
 	 * against the two inputted numbers and print the result.
