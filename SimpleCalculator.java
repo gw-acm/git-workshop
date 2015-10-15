@@ -22,50 +22,6 @@ public class SimpleCalculator {
 	}
 
 	/**
-	 * Perform addition
-	 * @param num1 first addition operand
-	 * @param num2 second addition operand
-	 * @return An integer that is the sum of the arguments
-	 */
-	public int add(int num1, int num2) {
-		// TODO: Complete this method
-	}
-
-	/**
-	 * Perform subtraction
-	 * @param num1 first subtraction operand
-	 * @param num2 second subtraction operand
-	 * @return An integer that is the difference of the arguments
-	 */
-	public int subtract(int num1, int num2) {
-		// TODO: Complete this method
-	}
-
-	/**
-     * Perform multiplication
-	 * @param num1 first multiplication operand
-	 * @param num2 second multiplication operand
-	 * @return an integer that is the product of the arguments
-	 */
-	public int multiply(int num1, int num2) {
-		// TODO: Complete this method
-	}
-
-	/**
-     * Perform division
-     * <p>
-     * This method does not account for the truncation that
-     * occues during integer divsion
-     *
-	 * @param num1 first division operand
-	 * @param num2 second division operand
-	 * @return An integer that is the quotient of the arguments
-	 */
-	public int divide(int num1, int num2) {
-		// TODO: Complete this method
-	}
-
-	/**
      * Main entry point for the program
      *<p>
 	 * Continuously loops and asks for two numbers and an operation.
@@ -120,6 +76,54 @@ public class SimpleCalculator {
 				System.out.println();
 			}
 		}
+	}
+
+    /**
+	 * Perform addition
+	 * @param num1 first addition operand
+	 * @param num2 second addition operand
+	 * @return An integer that is the sum of the arguments
+	 */
+	private int add(int num1, int num2) {
+		// TODO: Complete this method
+		return 0;
+	}
+
+	/**
+	 * Perform subtraction
+	 * @param num1 first subtraction operand
+	 * @param num2 second subtraction operand
+	 * @return An integer that is the difference of the arguments
+	 */
+	private int subtract(int num1, int num2) {
+		// TODO: Complete this method
+		return 0;
+	}
+
+	/**
+     * Perform multiplication
+	 * @param num1 first multiplication operand
+	 * @param num2 second multiplication operand
+	 * @return an integer that is the product of the arguments
+	 */
+	private int multiply(int num1, int num2) {
+		// TODO: Complete this method
+		return 0;
+	}
+
+	/**
+     * Perform division
+     * <p>
+     * This method does not account for the truncation that
+     * occues during integer divsion
+     *
+	 * @param num1 first division operand
+	 * @param num2 second division operand
+	 * @return An integer that is the quotient of the arguments
+	 */
+	private int divide(int num1, int num2) {
+		// TODO: Complete this method
+		return 0;
 	}
 
 }
