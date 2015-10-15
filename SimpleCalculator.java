@@ -47,10 +47,10 @@ public class SimpleCalculator {
 			operand = scanner.next();
 
 			switch (operand) {
-				case "+":
+				case "+": result = add(num1, num2);
 					// TODO: Add the numbers
 					break;
-				case "-":
+				case "-": 
 					// TODO: Subtract the numbers
 					break;
 				case "*":
@@ -86,7 +86,7 @@ public class SimpleCalculator {
 	 */
 	private int add(int num1, int num2) {
 		// TODO: Complete this method
-		return 0;
+		return num1 + num2;
 	}
 
 	/**
@@ -97,7 +97,7 @@ public class SimpleCalculator {
 	 */
 	private int subtract(int num1, int num2) {
 		// TODO: Complete this method
-		return 0;
+		return num1 - num2;
 	}
 
 	/**
@@ -108,7 +108,7 @@ public class SimpleCalculator {
 	 */
 	private int multiply(int num1, int num2) {
 		// TODO: Complete this method
-		return 0;
+		return num1 * num2;
 	}
 
 	/**
@@ -123,7 +123,7 @@ public class SimpleCalculator {
 	 */
 	private int divide(int num1, int num2) {
 		// TODO: Complete this method
-		return 0;
+		return num1 / num2;
 	}
 
 }
