@@ -11,7 +11,8 @@ import java.util.Scanner;
  *
  * @author Neel Shah (github.com/nks5295)
  * @author Phil Lopreiato (github.com/phil-lopreiato)
- * @version 1.0
+ * @author Brandon Bernier (github.com/bbernier10)
+ * @version 1.0.1
  *
  */
 public class SimpleCalculator {
@@ -48,16 +49,16 @@ public class SimpleCalculator {
 
 			switch (operand) {
 				case "+":
-					// TODO: Add the numbers
+                    add(num1,num2);
 					break;
 				case "-":
-					// TODO: Subtract the numbers
+                    subtract(num1,num2);
 					break;
 				case "*":
-					// TODO: Multiply the numbers
+                    multiply(num1,nume2);
 					break;
 				case "/":
-					// TODO: Divide the numbers
+                    divide(num1,num2);
 					break;
 				default:
 					System.out.println("Not a valid operand, try again.");
@@ -85,8 +86,7 @@ public class SimpleCalculator {
 	 * @return An integer that is the sum of the arguments
 	 */
 	private int add(int num1, int num2) {
-		// TODO: Complete this method
-		return 0;
+		return num1 + num2;
 	}
 
 	/**
@@ -96,8 +96,7 @@ public class SimpleCalculator {
 	 * @return An integer that is the difference of the arguments
 	 */
 	private int subtract(int num1, int num2) {
-		// TODO: Complete this method
-		return 0;
+		return num1 - num2;
 	}
 
 	/**
@@ -107,8 +106,7 @@ public class SimpleCalculator {
 	 * @return an integer that is the product of the arguments
 	 */
 	private int multiply(int num1, int num2) {
-		// TODO: Complete this method
-		return 0;
+		return num1*num2;
 	}
 
 	/**
@@ -122,8 +120,7 @@ public class SimpleCalculator {
 	 * @return An integer that is the quotient of the arguments
 	 */
 	private int divide(int num1, int num2) {
-		// TODO: Complete this method
-		return 0;
+		return num1/num2;
 	}
 
 }
