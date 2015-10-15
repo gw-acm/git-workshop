@@ -4,7 +4,7 @@
 -  10/15/2015
 -  GWU ACM Chapter
 
-This repository goes along with the [How2Git](https://github.com/phil-lopreiato/git-workshop.git) workshop.
+This repository goes along with the [How2Git](http://phil-lopreiato.github.io/git-workshop/) workshop.
 
 This code provides a shell for a four-function calculator that attendees
 fork, and fill in.
